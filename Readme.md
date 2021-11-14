@@ -20,6 +20,10 @@ yarn add @react-native-picker/picker
 (Já que a lib do Picker foi depreceada e não se encontra mais no módulo do React Native por padrão). 
 
 
+Os dados do JSON foram retirados do relatório anual de tratamento de água da Sabesp: 
+
+http://site.sabesp.com.br/site/uploads/file/relatorios_qualidade_agua/inf_qualidade_set21.pdf
+
 Integrantes do grupo: 
 
 
