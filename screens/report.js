@@ -3,13 +3,13 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 
 export default function Report({ navigation }) {
-
-    const [sistema] = useState(['Selecione um sistema', 'Guarapiranga', 'Cantareira'])
+  
+    //let reportRequest = new Request('../assets/db.json');
+    const db = require('../assets/db.json')
+    const [sistema] = useState(['Selecione um sistema', 'Guarapiranga', 'Cantareira', 'Alto Tietê', 'Marsilac', 'Oriental', 'Rio Claro'])
     const [sistemaSelecionado, setsistemaSelecionado] = useState([])
-
-    const [periodo] = useState(['Selecione o periodo', 'Outubro', 'Novembro'])
+    const [periodo] = useState(['Selecione o periodo', 'JAN', 'FEV'])
     const [periodoSelecionado, setperiodoSelecionado] = useState([])
-
     const pressHandler = () => {
       navigation.goBack();
     }
@@ -49,14 +49,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'left',
+    alignItems: 'flex-start',
   },
   logo: {
     marginTop: 30,
     marginBottom: 30,
-    width: '10%',
-    height: '10%',
-    alignSelf: 'left'
+    width: '12%',
+    height: '12%',
+    alignSelf: 'flex-start'
 
   },
 });
