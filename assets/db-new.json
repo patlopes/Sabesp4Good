@@ -1,0 +1,95 @@
+[
+    {
+        "nome": "Guarapiranga",
+        "data": "JAN",
+        "Propriedades": {
+            "Turbidez": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 790
+            },
+            "Cor Aparente": {
+                "Exigido": 177,
+                "Realizado": 229,
+                "Conforme": 227
+            },
+            "Cloro Residual Livre": {
+                "Exigido": 801,
+                "Realizado": 803,
+                "Conforme": 775
+            },
+            "Coliforme Total": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 792
+            },
+            "E.Coli": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 801
+            }
+        }
+    },
+    {
+        "nome": "Guarapiranga",
+        "data": "FEV",
+        "Propriedades": {
+            "Turbidez": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 790
+            },
+            "Cor Aparente": {
+                "Exigido": 177,
+                "Realizado": 229,
+                "Conforme": 227
+            },
+            "Cloro Residual Livre": {
+                "Exigido": 801,
+                "Realizado": 803,
+                "Conforme": 775
+            },
+            "Coliforme Total": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 792
+            },
+            "E.Coli": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 801
+            }
+        }
+    },
+    {
+        "nome": "Guarapiranga",
+        "data": "MAR",
+        "Propriedades": {
+            "Turbidez": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 790
+            },
+            "Cor Aparente": {
+                "Exigido": 177,
+                "Realizado": 229,
+                "Conforme": 227
+            },
+            "Cloro Residual Livre": {
+                "Exigido": 801,
+                "Realizado": 803,
+                "Conforme": 775
+            },
+            "Coliforme Total": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 792
+            },
+            "E.Coli": {
+                "Exigido": 801,
+                "Realizado": 801,
+                "Conforme": 801
+            }
+        }
+    }
+]
